@@ -24,7 +24,7 @@
             <ListBox x:Name="lbFerfiak"
                      Height="95"/>
             <TextBox x:Name="txtFerfi"
-                     Height="30"/>
+                     Height="30" KeyDown="txtFerfi_KeyDown"/>
         </StackPanel>
 
         <StackPanel VerticalAlignment="Center"
@@ -41,7 +41,7 @@
                 Background="White"
                 Content="Mix"
                 Grid.Column="1"
-                Grid.Row="1"/>
+                Grid.Row="1" Click="btnMix_Click"/>
 
         <ListBox x:Name="lbMix"
                  Grid.Row="2"
